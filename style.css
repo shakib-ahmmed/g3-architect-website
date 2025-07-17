@@ -148,3 +148,13 @@ main>section {
         margin: 50px auto;
     }
 }
+
+
+
+/* blog-container style */
+
+.blog-container {
+    margin: 240px 120px;
+    display: flex;
+    align-items: center;
+}
