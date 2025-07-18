@@ -160,6 +160,22 @@ main>section {
     max-width: 540px;
 }
 
+/* sponsor related style section */
+.sponsors-info {
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+
+}
+
+.sponsor-companies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    img {
+        filter: grayscale(100%);
+    }
+}
 
 /* responsive media query */
 @media screen and (max-width:576px) {
