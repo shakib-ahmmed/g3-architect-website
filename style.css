@@ -165,12 +165,19 @@ main>section {
 @media screen and (max-width:576px) {
 
     .navbar,
-    .nav-links {
+    .nav-links,
+    .teams {
         flex-direction: column;
     }
 
-    .teams-img.container {
-        grid-template-columns: repeat(1, 1fr);
+    .teams-img-container,
+    .facts-container {
+        grid-template-columns: 1fr;
+    }
+
+    .facts-container {
+        justify-items: center;
+        gap: 24px;
     }
 
     .out-features {
