@@ -187,13 +187,19 @@ main>section {
     }
 
     .teams-img-container,
-    .facts-container {
+    .facts-container,
+    .sponsor-companies {
         grid-template-columns: 1fr;
     }
 
     .facts-container {
         justify-items: center;
         gap: 24px;
+    }
+
+    .sponsor-companies {
+        justify-items: center;
+        gap: 50px;
     }
 
     .out-features {
@@ -209,6 +215,13 @@ main>section {
 
     .out-features {
         margin: 50px auto;
+    }
+
+    .sponsor-companies,
+    .facts-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        justify-content: center;
     }
 }
 
